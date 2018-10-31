@@ -37,8 +37,8 @@ HiLink taskpaperListItem      Identifier
 HiLink taskpaperContext       Identifier
 HiLink taskpaperProject       Title
 HiLink taskpaperDone          Comment
-HiLink taskpaperCancelled     Statement
-HiLink taskpaperComment       Comment
+HiLink taskpaperCancelled     Comment
+HiLink taskpaperComment       Statement
 
 call taskpaper#tag_style_dict(g:task_paper_styles)
 
