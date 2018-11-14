@@ -525,7 +525,7 @@ function! taskpaper#newline()
 
     let pline = getline(lnum - 1)
     let depth = len(matchstr(pline, '^\t*'))
-    call setline(lnum, repeat("\t", depth + 1) . '- ')
+    call setline(lnum, repeat("", depth + 1) . '- ')
 
     return "\<End>"
 endfunction
